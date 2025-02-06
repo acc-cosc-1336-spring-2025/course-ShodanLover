@@ -12,6 +12,10 @@ def use_int_type():
     num = num + 5 #reassign a value to the variable
     print(num)
 
+    #lets you work with different data types per variable
+    num = "Python"
+    print(num)
+
 def use_float_type():
     num = 10.99
     print(num)
@@ -21,3 +25,21 @@ def use_float_type():
     
     num = num + 11.5
     print(num)
+
+    num = "Python"
+    print(num)
+
+def use_string_type():
+    lang = "Python"
+    print(lang)
+
+    lang = 10
+    print(lang)
+
+    lang = 10.99
+    print(lang)
+
+def add_numbers(num1, num2):
+    result = num1 + num2
+
+    return result
