@@ -16,12 +16,12 @@ class Test_Config(unittest.TestCase):
 
     def test_truth_table(self):
 
-    self.assertEqual(False or False, False)
-    self.assertEqual(True or False, False)
-    self.assertEqual(False and True, False)
-    self.assertEqual(True and True, True)
+        self.assertEqual(False or False, False)
+        self.assertEqual(True or False, False)
+        self.assertEqual(False and True, False)
+        self.assertEqual(True and True, True)
 
     def test_not_truth_table(self):
 
-    self.assertEqual(not False, True)
-    self.assertEqual(not True, False)
+        self.assertEqual(not False, True)
+        self.assertEqual(not True, False)
