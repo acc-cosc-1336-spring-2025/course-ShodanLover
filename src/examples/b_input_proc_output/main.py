@@ -1,14 +1,13 @@
-import input_process_output
+import decisions
 
 def main():
-    num1 = input("Enter a number: ") #Python treats input as a string(sequence of characters)
-    num2 = input("Enter a Number: ")
-    
-    #code to check that num1 is a numeric
+    num1 = input("Enter number: ")  
+    num2 = input("Enter number: ")
 
-    result = input_process_output.add_numbers(int(num1), int(num2)) #convert num1, num2 to int
+    result = decisions.compare_numbers_equality(int(num1), int(num2))
+
     print(result)
     
-main()  #runs the code on line 3
+main()  
 
 

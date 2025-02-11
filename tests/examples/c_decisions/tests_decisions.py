@@ -25,3 +25,7 @@ class Test_Config(unittest.TestCase):
 
         self.assertEqual(not False, True)
         self.assertEqual(not True, False)
+
+    def test_compare_numbers_equality(self:)
+    self.assertEqual(test_compare_numbers_equality)(10, 5), False)
+    self.assertEqual(test_compare_numbers_equality)(10, 10), True)
