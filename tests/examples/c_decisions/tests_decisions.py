@@ -1,6 +1,6 @@
 import unittest
 
-from src.examples.c_decisions.decisions import compare_numbers_equality, is_number_in_range, is_vowel, test_config  # Import the function
+from src.examples.c_decisions.decisions import compare_numbers_equality, is_number_in_range, is_vowel, test_config
 
 class Test_Config(unittest.TestCase):
 
@@ -37,3 +37,8 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(is_vowel('o'), True)
         self.assertEqual(is_vowel('u'), True)
         self.assertEqual(is_vowel('m'), False)
+
+    def test_is_consonant(is_consonant(a'), False)
+        test_is_consonant(is_consonant(a'), False)
+        test_is_consonant(is_consonant(a'), False)
+        test_is_consonant(is_consonant(a'), False)
