@@ -1,10 +1,10 @@
 import decisions
 
 def main():
-    num1 = input("Enter number: ")  
-    num2 = input("Enter number: ")
-
-    result = decisions.compare_numbers_equality(int(num1), int(num2))
+    num1 = input("Enter min range: ")  
+    num2 = input("Enter max range: ")
+    num3 = input("Enter number: ")
+    result = decisions.is_number_inrange(int(num1, int(int(num1), int(num2), int(num3))
 
     print(result)
     
