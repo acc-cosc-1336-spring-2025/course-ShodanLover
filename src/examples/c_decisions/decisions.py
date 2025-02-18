@@ -16,4 +16,5 @@ def is_vowel(letter):
     return letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u'
 
 def is_even(num):
-    return num % 2 == o
+    return num % 2 == 0
+
