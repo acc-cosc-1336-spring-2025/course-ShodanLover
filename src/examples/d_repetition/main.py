@@ -1,9 +1,7 @@
 import repetition
 
 def main():
-    #num = input("Enter a number: ")#capture from keyboard as a string
-
-    result = repetition.run_menu()
+    repetition.use_a_for_range_loop(5)
 
 
 
