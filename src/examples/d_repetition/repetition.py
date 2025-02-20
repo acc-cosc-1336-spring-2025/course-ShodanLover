@@ -55,9 +55,6 @@ def handle_menu(user_option):
     else:
         print ("Invalid menu option")
 
-
-
-
 #3  1*1 + 2*2 +3*3 = 14
 #4  1*1 + 2*2 + 3*3 + 4*4 = 30
 #5  1*1 + 2*2 + 3*3 + 4*4 + 5*5 = 55
@@ -73,3 +70,25 @@ def get_sum_of_squares_for(num):
         sum += sum + (n+1) * (n+1) #square
 
     return sum
+
+
+def nested_while_loop():
+    i = 0
+
+    while(i < num):
+        j = 0
+        print("Waiting for while loop...")
+
+        while(j < num):
+           print("\tInner while loop running...")
+           j += 1
+       
+        i += 1
+
+def for_nested_loop(num):
+
+    for i in range(0, num):
+            print('Waiting for inner loop...')
+
+            for j in range(0, num):
+                    print('\tInner loop running...')            
