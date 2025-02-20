@@ -1,7 +1,10 @@
 import repetition
 
 def main():
-    repetition.use_a_for_range_loop(5)
+    num = input("Emter a number: ")
+    result = repetition.get_sum_of_squares_for(int(num))
+
+    print(result)
 
 
 
