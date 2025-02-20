@@ -2,7 +2,7 @@ import repetition
 
 def main():
     num = input("Emter a number: ")
-    result = repetition.for_nested_loop(2)
+    result = repetition.multiplication_table_while(10, 10)
 
 
 
