@@ -1,5 +1,4 @@
-import devprocess
+d = {1: 10, 2: 20, 3: 30}
 
-result = devprocess.add_numbers(5, 5)
 
-print(result)
+d2 = {k:v for k,v in d.items()}
