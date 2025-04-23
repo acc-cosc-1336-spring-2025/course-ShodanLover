@@ -1,28 +1,26 @@
 def main():
 
 
- try:
+   try:
 
 
-    total = int(input("Enter total cost of items? "))
+      total = int(input("Enter total cost of items? "))
 
 
-    num_items = int(input("Number of items "))
+      num_items = int(input("Number of items "))
 
 
-    average = total / num_items
+      average = total / num_items
+
+   except ZeroDivisionError:
 
 
- except ZeroDivisionError:
+      print('ERROR: cannot have 0 items')
+
+   except ValueError:
 
 
-    print('ERROR: cannot have 0 items')
-
-
- except ValueError:
-
-
-    print('ERROR: number of items cannot be negative')
+      print('ERROR: number of items cannot be negative')
 
 
 
@@ -31,4 +29,4 @@ def main():
 if __name__ == '__main__':
 
 
-    main()
+ main()
